@@ -1,0 +1,748 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: 'Poppins', sans-serif;
+}
+    
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav .top-navbar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 60px;
+    background-color: white;
+}
+
+nav .top-navbar .site-logo img {
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+nav .top-navbar .search-box {
+    border: 1px solid darkgray;
+    padding: 6px 10px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+}
+
+nav .top-navbar .search-box input {
+    font-size: 1.3rem;
+    color: black;
+    background: none;
+    border: 0;
+    padding: 0 10px;
+    width: 30vw;
+}
+
+nav .top-navbar .search-box select {
+    width: 15vw;
+    border: 0;
+    background-color: rgba(169, 169, 169, 0.24);
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+nav .top-navbar .search-box button {
+    background: none;
+    border: 0;
+    border-left: 1px solid black;
+    margin: 0 4px;
+    font-size: 1.2rem;
+    padding: 0 4px;
+    cursor: pointer;
+}
+
+nav .top-navbar .search-box button:hover {
+    color: blue;
+}
+
+nav .top-navbar .right-flex-bar {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+}
+
+nav .top-navbar .f1 {
+    padding: 0 20px;
+}
+
+nav .top-navbar .phone-no {
+    display: flex;
+}
+
+nav .top-navbar .site-icons font i {
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+nav .site-menus-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 30px;
+    background-color: white;
+}
+
+nav .site-menus-container ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+nav .site-menus-container ul li {
+    margin: 0 3px;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav .site-menus-container ul li a {
+    color: black;
+}
+
+.active,
+nav .site-menus-container ul li a:hover {
+    text-decoration: overline 2px solid black;
+    color: darkcyan;
+}
+
+nav .site-menus-container span i {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+nav .site-menus-container span i:hover {
+    color: darkcyan;
+    font-size: 1.5rem;
+}
+
+header .bg-img {
+    background-image: url(imgs/istockphoto-1154649405-612x612.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 100%;
+}
+
+header .bg-img .text-p {
+    position: absolute;
+    top: 13rem;
+    left: 3rem;
+    z-index: 1;
+}
+
+header .bg-img .text-p p {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+header .bg-img .text-p h1 {
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+header .bg-img .text-p span h1 {
+    font-size: 8rem;
+    font-family: 'Anton', sans-serif;
+}
+
+header .bg-img .text-p nav {
+    font-size: 1.3rem;
+}
+
+header .bg-img .text-p nav .h-btn button {
+    width: 9rem;
+    height: 1.8rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    margin: 10px 0;
+}
+
+header .bg-img .text-p nav .h-btn button:hover {
+    background-color: darkgray;
+}
+
+main section .first-sec {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px 0;
+}
+
+main section .first-sec div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main section .first-sec div i {
+    font-size: 2.5rem;
+}
+
+main section .first-sec div p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+
+main section .top-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+main section .top-options a div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 5px;
+    padding: 4px 5px;
+    width: 15rem;
+    border-radius: 50px;
+    color: black;
+}
+
+main section .top-options a div i {
+    padding: 5px 5px;
+    margin: 0 5px;
+    border: 1px solid darkgray;
+    border-radius: 50px;
+}
+
+main section .top-options a div p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+main section .top-options a div:hover {
+    box-shadow: 0 5px 5px darkgray;
+    color: rgb(139, 221, 15);
+}
+
+main section .flash-sale-container {
+    background-color: white;
+    margin: 0 65px;
+}
+
+main section .flash-sale-container .flashsale-head {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+main section .flash-sale-container .flashsale-head span {
+    display: flex;
+}
+
+main section .flash-sale-container .flashsale-head span p {
+    padding: 0 20px;
+}
+
+main section .flash-sale-container .flashsale-head span button {
+    margin: 0 30px;
+    padding: 5px 10px;
+    font-weight: bold;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+main section .flash-sale-container .flashsale-head span button:hover {
+    background-color: rgba(169, 169, 169, 0.452);
+}
+
+main section .flash-sale-container .flasesale-items {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    overflow-x: scroll;
+}
+
+main section .flash-sale-container .flasesale-items div {
+    width: 12rem;
+    height: 20rem;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    z-index: 1;
+}
+
+main section .flash-sale-container .flasesale-items div:hover {
+    box-shadow: 1px 1px 10px darkgray;
+}
+
+main section .flash-sale-container .flasesale-items div img {
+    width: 11rem;
+    height: 11rem;
+}
+
+main section .categories-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin: 0 65px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+main section .categories-container div {
+    width: 9rem;
+    height: 13.5rem;
+    margin: 5px 5px;
+    padding: 0 5px;
+}
+
+main section .categories-container div:hover {
+    box-shadow: 1px 1px 10px darkgray;
+}
+
+main section .categories-container div img {
+    width: 9rem;
+    height: 10rem;
+}
+
+main section .justforyou-container {
+    background-color: white;
+    margin: 0 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main section .justforyou-container div {
+    width: 11rem;
+    height: 23rem;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+
+main section .justforyou-container div:hover {
+    box-shadow: 1px 1px 10px darkgray;
+}
+
+main section .justforyou-container div img {
+    width: 10rem;
+    height: 10rem;
+}
+
+main section .main-buttom-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+main section .main-buttom-btn .main-b-btn {
+    width: 50vw;
+    height: 3rem;
+    background: none;
+    border: 2px solid rgb(7, 7, 7);
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+/* footer section start  */
+footer section .footer-sec-bg {
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+    height: 30rem;
+}
+
+footer section .footer-sec-bg .top-footer-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 20px 0 20px;
+}
+
+footer section .footer-sec-bg .top-footer-sec .f-left-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section .footer-sec-bg .top-footer-sec .f-left-sec div {
+    margin: 0 30px;
+}
+
+footer section .footer-sec-bg .top-footer-sec .f-left-sec div ul li {
+    margin: 10px 0;
+}
+
+footer section .footer-sec-bg .top-footer-sec .f-left-sec div ul li a {
+    color: white;
+}
+
+footer section .footer-sec-bg .top-footer-sec .right-sec-f {
+    padding: 40px 50px 0 0;
+    display: block;
+}
+
+footer section .footer-sec-bg .top-footer-sec .right-sec-f p {
+    font-size: 1.3rem;
+    padding: 10px 0;
+}
+
+footer section .footer-sec-bg .top-footer-sec .right-sec-f .input-f input {
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+footer section .footer-sec-bg .top-footer-sec .right-sec-f .input-f button {
+    padding: 5px 20px;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: black;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: 1px 1px 15px white;
+}
+
+footer section .footer-sec-bg .top-footer-sec .right-sec-f .f-icons a i {
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    margin: 10px 3px;
+    padding: 5px 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px white;
+}
+
+footer section .footer-sec-bg .top-footer-sec .right-sec-f .input-f input:hover,
+footer section .footer-sec-bg .top-footer-sec .right-sec-f .input-f button:hover,
+footer section .footer-sec-bg .top-footer-sec .right-sec-f .f-icons a i:hover {
+    box-shadow: 1px 1px 15px rgb(233, 6, 214);
+    color: blue;
+}
+
+footer section .footer-sec-bg .top-footer-sec .right-sec-f .payment-method-f p {
+    padding: 10px 30px;
+    font-weight: bolder;
+}
+
+footer section .footer-sec-bg .top-footer-sec .right-sec-f .payment-method-f .cards-flex-f {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+footer section .footer-sec-bg .top-footer-sec .right-sec-f .payment-method-f .cards-flex-f span {
+    background-color: white;
+    padding: 10px 10px;
+    margin: 5px 3px;
+    color: black;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px white;
+    cursor: pointer;
+}
+
+footer section .footer-sec-bg .f-copyright p {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* contact page start  */
+.contact-form-main {
+    background-image: url(imgs/beautiful-people-3954533_640.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+}
+
+.contact-form-main section .form-contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+
+.contact-form-main section .form-contact h1 {
+    font-size: 2rem;
+}
+
+.contact-form-main section .form-contact .right-form-sec .inputs-form,
+.contact-form-main section .form-contact .left-form-sec .location p {
+    padding: 15px 0;
+    font-size: 1.2rem;
+}
+
+.contact-form-main section .form-contact .left-form-sec .follow-us .form-icons {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-form-main section .form-contact .left-form-sec .follow-us .form-icons i {
+    padding: 8px 8px;
+    margin: 0 5px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 1.4rem;
+}
+
+.contact-form-main section .form-contact .left-form-sec .follow-us .form-icons i:hover {
+    background-color: purple;
+    box-shadow: 1px 1px 15px white;
+}
+
+.contact-form-main section .form-contact .left-form-sec .copy-right-form p {
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+.contact-form-main section .form-contact .right-form-sec .inputs-form textarea,
+.contact-form-main section .form-contact .right-form-sec .inputs-form input {
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    width: 40vw;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+.contact-form-main section .form-contact .right-form-sec .inputs-form button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.contact-form-main section .form-contact .right-form-sec .inputs-form button:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(207, 14, 175);
+    color: white;
+
+}
+
+/* our team page start  */
+main section .our-team-sec {
+    margin: 0 30px;
+}
+
+main section .our-team-sec .head-team {
+    background-color: rgb(255, 241, 235);
+    color: rgb(64, 0, 58);
+}
+
+main section .our-team-sec .head-team .team-top-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main section .our-team-sec .head-team .team-top-head img {
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+main section .our-team-sec .head-team .team-top-head div {
+    padding: 10px 150px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+main section .our-team-sec .manage-team-sec {
+    padding: 20px 0;
+}
+
+main section .our-team-sec .manage-team-sec .flex-team-sec {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+main section .our-team-sec .manage-team-sec .flex-team-sec div {
+    width: 17rem;
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+
+main section .our-team-sec .manage-team-sec .flex-team-sec div:hover {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.61);
+    border-radius: 10px;
+}
+
+main section .our-team-sec .manage-team-sec .flex-team-sec div:hover i {
+    display: block;
+    animation: transup .6s linear 1;
+}
+
+@keyframes transup {
+    0% {
+        transform: translateY(100%);
+    }
+
+}
+
+main section .our-team-sec .manage-team-sec .flex-team-sec div img {
+    width: 16rem;
+    border-radius: 10px;
+}
+
+main section .our-team-sec .manage-team-sec .flex-team-sec div font i {
+    font-size: 1.5rem;
+    padding: 4px 4px;
+    display: none;
+    cursor: pointer;
+}
+
+/* our mission section start  */
+main section .our-mission-sec{
+    background-color: white;
+  
+}
+main section .our-mission-sec .top-m-sec {
+    background-image: url(imgs/Project-Smile_2.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.507);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    
+}
+main section .our-mission-sec .top-m-sec div .m-head{
+    font-size: 5rem;
+}
+main section .our-mission-sec .top-m-sec div p{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0 30px;
+}
+main section .our-mission-sec .second-m-sec{
+    padding: 0 20px;
+}
+main section .our-mission-sec .second-m-sec .benefits-m-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+main section .our-mission-sec .second-m-sec .benefits-m-sec div{
+    width: 16rem;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+main section .our-mission-sec .second-m-sec .benefits-m-sec div:hover{
+    background-color: #f78da82d;
+}
+main section .our-mission-sec .second-m-sec .benefits-m-sec div:hover .r-icon{
+    transform: rotate(-90deg);
+}
+main section .our-mission-sec .second-m-sec .benefits-m-sec div .d1-icons i{
+    font-size: 4rem;
+    color: rgb(248,86,6);
+}
+main section .our-mission-sec .third-sec-benifits{
+    padding: 0 20px;
+}
+main section .our-mission-sec .third-sec-benifits .education-sec-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+main section .our-mission-sec .third-sec-benifits .education-sec-1 img{
+    width: 30rem;
+    border-radius: 10px;
+}
+main section .our-mission-sec .third-sec-benifits .education-sec-1 .edu-sec-p{
+    padding: 0 50px;
+    width: 30rem;
+    font-family: 'Poppins', sans-serif;
+}
+main section .our-mission-sec .third-sec-benifits .education-sec-1 .edu-sec-p .du-m-box{
+    background-color: rgba(127, 255, 212, 0.322);
+    margin-top: 20px;
+    width: 20rem;
+    padding: 10px 20px;
+    float: right;
+    z-index: 1;
+    position: relative;
+}
+main section .our-mission-sec .third-sec-benifits .education-sec-1 .edu-sec-p .du-m-box::before{
+    content: "";
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    z-index: -1;
+    margin-right: 10px;
+}
+main section .our-mission-sec .third-sec-benifits .education-sec-1 .edu-sec-p .du-m-box:hover::before{
+    width: 20rem;
+    background-color: aqua;
+    height: 100%;
+    margin-right: 10px;
+    width: 100%;
+    transition: all 2s;
+}
+main section .our-mission-sec .third-sec-benifits .education-sec-1 .edu-sec-p .du-m-box .box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main section .our-mission-sec .third-sec-benifits .education-sec-1 .edu-sec-p .du-m-box .box-flex img{
+    width: 33px;
+    height: 33px;
+}
+

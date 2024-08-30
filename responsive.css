@@ -1,0 +1,363 @@
+/* max width 1160 */
+@media (max-width:1160px){
+    #site-heart{
+        display: none;
+    }
+    main section .flash-sale-container .flasesale-items div{
+        width: 10rem;
+    }
+    main section .flash-sale-container .flasesale-items div img{
+        width: 9rem;
+        height: 9rem;
+    }
+    main section .justforyou-container div {
+        width: 10rem;
+        height: 23rem;
+    }
+    main section .justforyou-container div img {
+        width: 9rem;
+        height: 9rem;
+    }
+    main section .top-options a div{
+        width: 12rem;
+    }
+
+}
+/* max width 1135px */
+@media(max-width:1135px){
+    footer section .footer-sec-bg {
+        height: 35rem;
+    }
+}
+/* max width 1000px */
+@media (max-width:1000px){
+    nav .top-navbar .phone-no {
+        display: none;
+    }
+    footer section .footer-sec-bg .top-footer-sec {
+        display: block;
+        padding: 10px 20px 0 20px;
+    }
+    footer section .footer-sec-bg {
+        height: 43rem;
+    }
+    footer section .footer-sec-bg .top-footer-sec .right-sec-f {
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    footer section .footer-sec-bg .top-footer-sec .right-sec-f .f-icons a i {
+        margin-top: 20px;
+    }
+}
+/* max width 880px */
+@media (max-width:880px){
+    main section .first-sec div i {
+        font-size: 1.5rem;
+    }
+    main section .first-sec div p {
+        font-size: 1rem;
+    }
+    main section .top-options a div p {
+        font-size: 1rem;
+    }
+    main section .top-options {
+        flex-wrap: wrap;
+
+    }
+}
+/* min width 801px */
+@media (min-width:801px){
+    #open-menu-icon{
+        display: none;
+    }
+    #menu-close-icon{
+        display: none;
+    }
+}
+/* max width 800px */
+@media (max-width:800px){
+    main section .flash-sale-container {
+        margin: 0 20px;
+    }
+    main section .justforyou-container {
+        margin: 0 20px;
+    }
+    main section .categories-container {
+        margin: 0 20px;
+    }
+    nav .site-menus-container ul {
+       display: none;
+       padding-top: 70px;
+       background-color: rgba(0, 0, 0, 0.61);
+       width: 100%;
+       right: 0;
+       color: white;
+       position: absolute;
+       z-index: 1;
+       animation: down 1s linear 1;
+    }
+    @keyframes down {
+        0%{
+            transform: translateY(-100%);
+        }
+        100%{
+            transform: translateY(1%);
+        }
+    }
+    nav .site-menus-container ul i{
+        position: absolute;
+        right: 2rem;
+        font-size: 1.5rem;
+    }
+    nav .site-menus-container ul li{
+        margin: 10px 0;
+    }
+    nav .site-menus-container ul li a{
+        color: white;
+    }
+    .active,
+nav .site-menus-container ul li a:hover {
+    text-decoration: overline 2px solid white;
+    color: rgb(0, 139, 127);
+}
+    #open-menu-icon{
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 50px;
+    }
+    #menu-close-icon{
+        position: absolute;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 50px;
+    }
+    #open-menu-icon:hover{
+        background-color: orange;
+    }
+    #menu-close-icon:hover{
+        background-color: orange;
+    }
+
+}
+/* max width 700px */
+@media (max-width:700px){
+    main section .first-sec div i {
+        font-size: 1rem;
+    }
+    main section .first-sec div p {
+        font-size: .9rem;
+    }
+    
+    main section .justforyou-container div {
+        padding: 10px 10px;
+        margin: 10px 5px;
+    }
+    main section .justforyou-container div {
+        width: 8rem;
+        height: 22rem;
+    }
+    main section .justforyou-container div img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+}
+/* max width 626px */
+@media (max-width:626px){
+    header .bg-img .text-p span h1 {
+        font-size: 5rem;
+    }
+    nav .top-navbar .search-box select {
+        width: 20vw;
+        font-size: .9rem;
+    }
+    nav .top-navbar .search-box button {
+        font-size: 1rem;
+    }
+    nav .top-navbar .site-icons font i {
+        font-size: 1.2rem;
+    }
+    nav .top-navbar .search-box input {
+        font-size: 1rem;
+        width: 20vw;
+    }
+    nav .top-navbar .site-logo img {
+        height: 40px;
+        border-radius: 10px;
+        margin: 0 5px;
+    }
+    header .bg-img .text-p p {
+        font-size: .9rem;
+    }
+    header .bg-img .text-p h1 {
+        font-size: 3rem;
+    }
+    main section .first-sec {
+        display: none;
+    }
+    main section .top-options a div p {
+        font-size: .8rem;
+    }
+    main section .top-options a div{
+        width: 9rem;
+    }
+    main section .flash-sale-container .flashsale-head span p {
+        padding: 0 10px;
+        font-size: .9rem;
+    }
+    main section .flash-sale-container .flasesale-items div {
+        font-size: .8rem;
+        height: 15rem;
+    }
+    main section .categories-container div {
+        font-size: .8rem;
+        width: 9rem;
+        height: 10rem;
+        padding: 5px 5px;
+    }
+    main section .categories-container div img {
+        width: 7rem;
+        height: 7rem;
+    }
+    main section .justforyou-container div {
+        width: 8rem;
+        height: 20rem;
+        padding: 10px 10px;
+        margin: 10px 5px;
+        font-size: .9rem;
+    }
+    footer section .footer-sec-bg .top-footer-sec .right-sec-f p {
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    footer section .footer-sec-bg .top-footer-sec .right-sec-f .input-f input {
+        font-size: 1rem;
+    }
+    footer section .footer-sec-bg .top-footer-sec .right-sec-f .input-f button {
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+    footer section .footer-sec-bg .top-footer-sec .right-sec-f .payment-method-f p {
+        padding: 10px 30px;
+        font-size: .9;
+    }
+    footer section .footer-sec-bg .top-footer-sec .right-sec-f .payment-method-f .cards-flex-f span {
+        background-color: white;
+        padding: 5px 5px;
+        font-size: .8;
+    }
+    footer section .footer-sec-bg .f-copyright p {
+        padding: 10px 0;
+        font-size: 1rem;
+    }
+    footer section .footer-sec-bg .top-footer-sec .f-left-sec div ul li {
+        margin: 5px 0;
+    }
+    footer section .footer-sec-bg {
+        height: 38rem;
+    }
+}
+/* max width 521px */
+@media (max-width:521px){
+    footer section .footer-sec-bg {
+        height: 44rem;
+    }
+    header .bg-img {
+        height: 25rem;
+    }
+}
+/* max width 470px */
+@media (max-width:470px){
+    main section .flash-sale-container .flashsale-head span p {
+        padding: 0 10px;
+        font-size: .7rem;
+    }
+    main section .flash-sale-container .flashsale-head span button {
+        margin: 0 10px;
+        padding: 5px 5px;
+        font-size: .7rem;
+    }
+    footer section .footer-sec-bg .top-footer-sec .f-left-sec div {
+        margin: 0 10px;
+    }
+    
+}
+/* max width 400px */
+@media (max-width:400px){
+    header .bg-img .text-p h1 {
+        font-size: 2rem;
+    }
+    nav .top-navbar .search-box input {
+        font-size: .9rem;
+        width: 20vw;
+    }
+    header .bg-img .text-p span h1 {
+        font-size: 3rem;
+    }
+    nav .top-navbar .site-icons font i {
+        padding: 1px 0px;
+        font-size: 1.2rem;
+        margin: 0 1px;
+    }
+    header .bg-img {
+        height: 20rem;
+    }
+    footer section .footer-sec-bg {
+        height: 36rem;
+        font-size: .7rem;
+    }
+}
+/* max width 368px */
+@media (max-width:368px){
+    main section .categories-container div {
+        font-size: .8rem;
+        width: 7rem;
+        height: 8rem;
+        padding: 5px 5px;
+    }
+    main section .categories-container div img {
+        width: 6rem;
+        height: 6rem;
+    }
+    footer section .footer-sec-bg .top-footer-sec .right-sec-f .input-f button{
+        margin-top: 10px;
+    }
+    main section .flash-sale-container .flashsale-head span p {
+        padding: 0 5px;
+        font-size: .5rem;
+    }
+    main section .flash-sale-container .flashsale-head span button {
+        margin: 0 5px;
+        padding: 5px 5px;
+        font-size: .5rem;
+    }
+    footer section .footer-sec-bg .top-footer-sec .f-left-sec div {
+        margin: 0 10px;
+    }
+    main section .justforyou-container div {
+        width: 6rem;
+        height: 13rem;
+        padding: 5px 5px;
+        margin: 10px 5px;
+        font-size: .5rem;
+    }
+    main section .justforyou-container div img{
+        width: 6rem;
+        height: 6rem;
+    }
+    footer section .footer-sec-bg .top-footer-sec .right-sec-f .input-f button{
+        margin-top: 10px;
+        font-size: .7rem;
+    }
+    footer section .footer-sec-bg .top-footer-sec .right-sec-f .input-f input {
+        font-size: .7rem;
+    }
+    footer section .footer-sec-bg {
+        height: 38rem;
+        font-size: .7rem;
+    }
+}

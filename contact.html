@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerace.com</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="webfonts/fa-brands-400.ttf">
+    <link rel="stylesheet" href="webfonts/fa-brands-400.woff2">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@600&family=Oswald:wght@500&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="top-navbar">
+            <div class="site-logo"><img src="imgs/logo - Copy.jpg"></div>
+            <div class="search-box">
+                <input type="text" id="site-search" placeholder="Search Here......">
+                <button><i class="fa-solid fa-search"></i></button>
+            </div>
+            <div class="right-flex-bar">
+                <div class="phone-no f1">
+                    <font size="10"><i class="fa-solid fa-phone"></i></font>
+                    <span style="padding-top: 5px;">
+                        <p><b><big>Call Now</big></b></p>
+                        <p><b>+92 3193555605</b></p>
+                    </span>
+                </div>
+                <div class="site-icons f1">
+                    <font size="5">
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-solid fa-heart" id="site-heart" title="faveret"></i>
+                    </font>
+                </div>
+            </div>
+        </div>
+        <div class="site-menus-container">
+            <div id="open-menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul id="site-menus">
+                <i class="fa-solid fa-close" id="menu-close-icon"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="mission.html">Our mission</a></li>
+                <li><a href="team.html">Our team</a></li>
+                <li><a href="contact.html" class="active">Contact us</a></li>
+            </ul>
+            <span><i class="fa-solid fa-shop" title="Shop now"></i></span>
+        </div>
+    </nav>
+    <main class="contact-form-main">
+        <section>
+            <div class="form-contact">
+                <div class="left-form-sec">
+                    <div class="location">
+                        <h1>Location</h1>
+                        <p>KPK, Swabi, Kalu khan......</p>
+                    </div>
+                    <br>
+                    <div class="follow-us">
+                        <h1>Follow us</h1>
+                        <div class="form-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="copy-right-form">
+                        <p>&copy; 2023 Privacy Policy </p>
+                    </div>
+                </div>
+                <div class="right-form-sec">
+                    <h1>Contact us</h1>
+                    <div class="inputs-form" id="contact-form">
+                        <input type="text" name="name" id="nameuser" placeholder="Enter Your Name" required>
+                        <br>
+                        <input type="email" name="email" id="emailuser" placeholder="Enter Your Email" required>
+                        <br>
+                        <textarea name="textarea" cols="30" rows="5" id="textareauser" placeholder="Enter your Massage"
+                            required></textarea>
+                        <br>
+                        <button type="submit" onclick="btnsubf()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="footer-sec-bg">
+                <div class="top-footer-sec">
+                    <div class="f-left-sec">
+                        <div class="first-f-sec">
+                            <ul>
+                                <li><a href="#"><b style="font-size: 1.2rem; letter-spacing: 2px;"> SHOP </b></a></li>
+                                <li><a href="#">Drinks</a></li>
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Store Locator</a></li>
+                                <li><a href="#">Ratar a Friend</a></li>
+                            </ul>
+                        </div>
+                        <div class="second-f-sec">
+                            <ul>
+                                <li><a href="#"><b style="font-size: 1.2rem; letter-spacing: 2px;"> HELP </b></a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Accessability</a></li>
+                            </ul>
+                        </div>
+                        <div class="third-f-sec">
+                            <ul>
+                                <li><a href="#"><b style="font-size: 1.2rem; letter-spacing: 2px;"> ABOUT Us </b></a>
+                                </li>
+                                <li><a href="#">Our Slary</a></li>
+                                <li><a href="#">OUPOP Diges!</a></li>
+                                <li><a href="#">Ingredienls</a></li>
+                                <li><a href="#">Digestive Health</a></li>
+                                <li><a href="#">Wholesels</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right-sec-f">
+                        <p>Sign up to get 10% off your first order</p>
+                        <div class="input-f">
+                            <input type="email" placeholder="Your Email Address.."><button>Subscribe</button>
+                        </div>
+                        <div class="f-icons">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <div class="payment-method-f">
+                            <p>Payment Methods</p>
+                            <div class="cards-flex-f">
+                                <span
+                                    style="background: linear-gradient(45deg, rgb(79, 88, 79), rgb(185, 169, 169)); font-weight: bold; color: rgb(39, 43, 33);">CASH
+                                    ON DELIVERY</span>
+                                <span style="color: darkblue; font-weight: bolder;">VISA</span>
+                                <span style="background: linear-gradient(50deg, red, orange);font-weight: bold;">Cradit
+                                    card</span>
+                                <span
+                                    style="background: linear-gradient(30deg, rgb(143,178,15), rgb(157, 196, 16)); font-weight: bold;">easypaisa</span>
+                                <span
+                                    style="background: linear-gradient(30deg, red, rgb(241, 33, 6)); color: yellow; font-weight: bolder;">Jazz
+                                    Cash</span>
+                                <span
+                                    style="background: linear-gradient(90deg,rgb(2,122,130),rgb(2,122,130), rgb(2,74,135), rgb(2,74,135), rgb(2,74,135),rgb(227,22,52),rgb(227,22,52),rgb(227,22,52) );font-weight: bolder; color: white;">Union
+                                    Pay</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="f-copyright">
+                    <p>&copy; M Tayyeb Developer . Daraz 2023</p>
+                </div>
+            </div>
+        </section>
+        <span id="pro-btn"></span>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
